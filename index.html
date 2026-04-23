@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Rastreador de Orçamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Meu Orçamento</h2>
+        
+        <div class="balance-container">
+            <h4>Saldo Atual</h4>
+            <h1 id="balance">R$ 0.00</h1>
+        </div>
+
+        <div class="inc-exp-container">
+            <div>
+                <h4>Receitas</h4>
+                <p id="money-plus" class="money plus">+ R$ 0.00</p>
+            </div>
+            <div>
+                <h4>Despesas</h4>
+                <p id="money-minus" class="money minus">- R$ 0.00</p>
+            </div>
+        </div>
+
+        <h3>Histórico</h3>
+        <ul id="list" class="list"></ul>
+
+        <h3>Nova Transação</h3>
+        <form id="form">
+            <div class="form-control">
+                <label for="text">Descrição</label>
+                <input type="text" id="text" placeholder="Ex: Salário, Almoço..." />
+            </div>
+            <div class="form-control">
+                <label for="amount">Valor (Negativo para despesas)</label>
+                <input type="number" id="amount" placeholder="Ex: 1500 ou -50" />
+            </div>
+            <button class="btn">Adicionar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
