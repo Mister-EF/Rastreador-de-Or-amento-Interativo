@@ -1,4 +1,4 @@
-# Interactive Budget Tracker
+# Interactive Budget Tracker - rastreador de orçamento interativo
 
 A functional web application that calculates balances dynamically using JavaScript and utilizes `localStorage` to keep user financial data persistent across browser sessions. Add income, log expenses, and watch your balance update instantly — no page reloads, no data loss.
 
